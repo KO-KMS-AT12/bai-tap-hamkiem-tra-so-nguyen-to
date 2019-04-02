@@ -10,12 +10,10 @@ function kiemTraSNT(number) {
 }
 
 function hienThiSNT() {
-    var count = 0;
     for (let i = 1; i < 1000; i++) {
         if (kiemTraSNT(i)) {
             document.write(i + '<br>');
         }
-        count++;
     }
 }
 
